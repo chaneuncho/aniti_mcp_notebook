@@ -1,0 +1,11 @@
+{
+  "name": "daum-news-top5-app",
+  "version": "1.0.0",
+  "description": "Daum News Top 5 Extractor Web Application",
+  "scripts": {
+    "server": "npm --prefix server start",
+    "client": "npm --prefix client run dev",
+    "install:all": "npm --prefix server install && npm --prefix client install",
+    "dev": "node run-all.js"
+  }
+}
